@@ -1,0 +1,50 @@
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.main-header {
+    background-color: rgb(54, 53, 53);
+
+}
+
+.master-container {
+    display: grid;
+    grid-template-columns: 25% 37.5% 37.5%;
+  grid-template-rows: 15% 50% 35%;
+  grid-template-areas: 
+  "search map map"
+  "side map map"
+  "side weather weather";      
+}
+
+.container-sm1 {
+    grid-area: search;
+    display: inline-flex;
+    flex-wrap: wrap;
+    
+    border: solid black;
+}
+
+.form-label {
+display: block;
+width: 100%;
+}
+
+.container-sm2 {
+    grid-area: side;
+    display: inline-flex;
+    border: solid black;
+    height: 70vh;
+    }
+    
+.container-lg {
+    grid-area: map;
+    position: relative;
+    display: inline-flex;
+    border: solid black;
+    }
+.container-md {
+    grid-area: weather;
+    border: solid black;
+}
