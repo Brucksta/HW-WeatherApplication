@@ -20,7 +20,7 @@ h1 {
 .master-container {
     display: grid;
     grid-template-columns: 25% 37.5% 37.5%;
-  grid-template-rows: 15% 45% 40%;
+  grid-template-rows: 15% 35% 55%;
   grid-template-areas: 
   "search map map"
   "side map map"
@@ -31,13 +31,13 @@ h1 {
     grid-area: search;
     display: inline-flex;
     flex-wrap: wrap;
-    border: solid black;
+    
 }
 
 
 .container-sm2 {
     grid-area: side;
-    border: solid black;
+    
     height: 70vh;
     text-align: center;
     }
