@@ -1,4 +1,4 @@
-<h1>Homework Assignment 6 - Weather Applciation<h1>
+<h1>Homework Assignment 6 - Weather Applciation</h1>
   
 A deployed link to my application is here: https://brucksta.github.io/HW-WeatherApplication/
   
