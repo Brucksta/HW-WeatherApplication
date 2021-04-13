@@ -3,6 +3,15 @@ h1 {
     color: white;
 }
 
+#searchForm {
+    align-self: center;
+    text-align: center;
+}
+
+.submit {
+    border: none;
+}
+
 .main-header {
     background-color: rgb(54, 53, 53);
 
@@ -11,7 +20,7 @@ h1 {
 .master-container {
     display: grid;
     grid-template-columns: 25% 37.5% 37.5%;
-  grid-template-rows: 15% 50% 35%;
+  grid-template-rows: 15% 45% 40%;
   grid-template-areas: 
   "search map map"
   "side map map"
@@ -34,11 +43,17 @@ h1 {
     }
     
 .container-lg {
+    margin: 2%;
     grid-area: map;
-    position: relative;
-    display: inline-flex;
-    border: solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: space-between;
+    border-radius: 25px;
+    padding-bottom: 10%;
+    text-align: center;
     }
+
 .container-md {
     grid-area: weather;
     display: grid;
@@ -50,31 +65,14 @@ h1 {
     width: 90%;
 }
 
-.box1 {
+
+.box1, .box2, .box3, .box4 {
     display: flex;
     flex-direction: column;
     padding: 1rem;
     justify-content: space-between;
     background-color: lightskyblue;
-}
-
-.box2 {
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
-    justify-content: space-between;
-}
-
-.box3 {
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
-    justify-content: space-between;
-}
-
-.box4 {
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
-    justify-content: space-between;
+    border-radius: 25px;
+    color: white;
+    font-family: cursive;
 }
